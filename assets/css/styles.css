@@ -690,6 +690,7 @@ color: var(--first-color-alt);
   display: flex;
   align-items: center;
   column-gap: .25rem;
+  cursor: pointer;
 }
 
 .work__button:hover .work__icon {
@@ -958,6 +959,14 @@ Work modal
 
 .contact__form-area textarea{
   resize: none;
+}
+
+.contact__message {
+  color: white;
+  font-size: medium;
+  position: relative;
+  bottom: 1.6rem;
+  left: 0;
 }
 
 /*=============== FOOTER ===============*/

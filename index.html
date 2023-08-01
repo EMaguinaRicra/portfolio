@@ -710,9 +710,32 @@
                     </div>
                     
                     <div class="contact__content">
-                        <div class="contact__container__img container grid">
-                            <img src="assets/img/about-1.webp" alt="" class="about__img">
-                        </div>
+                        <h3 class="contact__title">Escríbeme tu proyecto</h3>
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Nombres</label>
+                                <input type="text" name="user_name" placeholder="Escribe tus nombres" class="contact__form-input" id="name">
+                            </div>
+                        
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Correo</label>
+                                <input type="email" name="user_email" placeholder="Escribe tu email" class="contact__form-input" id="email">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label for="" class="contact__form-tag">Asunto</label>
+                                <input type="text" name="user_subject" placeholder="Asunto" class="contact__form-input" id="subject">
+                            </div>
+                        
+                            <div class="contact__form-div contact__form-area">
+                                <label for="" class="contact__form-tag">Proyecto</label>
+                                <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Escribe tu proyecto" class="contact__form-input"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+                            <button class="button" type="submit">Send Message</button>
+                            
+                        </form>
                     </div>
                 </div>
             </section>
@@ -750,7 +773,7 @@
                 </ul>
 
                 <span class="footer__copy">
-                    &#169; Bedimcode. All rigths reserved
+                    &#169; Eloy Maguiña. All rigths reserved
                 </span>
             </div>
         </footer>
@@ -763,6 +786,9 @@
 
         <!--=============== MIXITUP FILTER ===============-->
         <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== EMAILJS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
