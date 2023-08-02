@@ -631,7 +631,7 @@
             </section>
 
             <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
+            <section class="testimonial section" id="testimonial">
                 <span class="section__subtitle">Mis clientes</span>
                 <h2 class="section__title">Testimonios</h2>
 
@@ -714,26 +714,26 @@
                         <form action="" class="contact__form" id="contact-form">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Nombres</label>
-                                <input type="text" name="user_name" placeholder="Escribe tus nombres" class="contact__form-input" id="name">
+                                <input type="text" name="user_name" placeholder="Escribe tus nombres" class="contact__form-input" required id="name">
                             </div>
                         
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Correo</label>
-                                <input type="email" name="user_email" placeholder="Escribe tu email" class="contact__form-input" id="email">
+                                <input type="email" name="user_email" placeholder="Escribe tu email" class="contact__form-input" required id="email">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Asunto</label>
-                                <input type="text" name="user_subject" placeholder="Asunto" class="contact__form-input" id="subject">
+                                <input type="text" name="user_subject" placeholder="Asunto" class="contact__form-input" required id="subject">
                             </div>
                         
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Proyecto</label>
-                                <textarea name="user_message" id="message" cols="30" rows="10" placeholder="Escribe tu proyecto" class="contact__form-input"></textarea>
+                                <textarea name="user_message" required id="message" cols="30" rows="10" placeholder="Escribe tu proyecto" class="contact__form-input"></textarea>
                             </div>
 
                             <p class="contact__message" id="contact-message"></p>
-                            <button class="button" type="submit">Send Message</button>
+                            <button class="button" type="submit"><i class='bx bx-paper-plane'></i> Send Message</button>
                             
                         </form>
                     </div>
