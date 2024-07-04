@@ -1,788 +1,784 @@
 <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-        <!--=============== FONTAWESOME ===============-->
-        <script src="https://kit.fontawesome.com/7f5cf7e8e9.js" crossorigin="anonymous"></script>
-
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Portfolio Eloy Maguina </title> 
-    </head>
-    <body>
-        <!--=============== HEADER ===============-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Eloy</a>
-
-                <div class="nav__menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home' ></i>
-                            </a>
-                        </li>
-                        
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">
-                                <i class='bx bx-user-circle' ></i>
-                            </a>
-                        </li>
-                        
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class='bx bx-book'></i>
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#work" class="nav__link">
-                                <i class='bx bx-briefcase' ></i>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class='bx bx-message-rounded-dots' ></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-            <!-- Theme Change Button -->
-
-            <i class='bx bx-moon change-theme' id="theme-button"></i>
-
-            </nav>
-        </header>
-
-        <!--=============== MAIN ===============-->
-        <main class="main">
-            <!--=============== HOME ===============-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <span class="home__gretting">Hola, soy</span>
-                        <h1 class="home__name">Eloy Maguiña</h1>
-                        <h3 class="home__education">Ingeniero de Sistemas</h3>
-
-                        <div class="home__buttons">
-                            <a download="" href="assets/pdf/Curriculum Maguiña Ricra Eloy.pdf" class="button button--ghost">
-                                Descargar CV
-                            </a>
-                            <a href="#about" class="button">Sobre Mí</a>
-                        </div>                      
-                    </div>
-
-                    <div class="home__handle">
-                        <img src="assets/img/perfil-1.png" alt="" class="home__img">
-                    </div>
-
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/eloy-maguina/" target="_blank" class="home__social-link">
-                            <i class='bx bxl-linkedin-square'></i>
-                        </a>
-                        <a href="https://github.com/EMaguinaRicra" target="_blank" class="home__social-link">
-                            <i class='bx bxl-github' ></i>
-                        </a>
-                        <a href="https://www.behance.net/eloymaguiaricra" target="_blank" class="home__social-link">
-                            <i class='bx bxl-behance'></i>
-                        </a>
-                    </div>
-
-                    <a href="#about" class="home__scroll">
-                        <i class='bx bx-mouse-alt home__scroll-icon' ></i>
-                        <span class="home__scroll-name">Scroll Down</span>
-                    </a>
-                </div>
-            </section>
-            
-            <!--=============== ABOUT ===============-->
-            <section class="about section" id="about">
-                <span class="section__subtitle">Introducción</span>
-                <h2 class="section__title">Sobre Mí</h2>
-
-                <div class="about__container container grid">
-                    <img src="assets/img/about-1.webp" alt="" class="about__img">
-                    
-                    <div class="about__data">
-                        <div class="about__info">
-                            <div class="about__box">
-                                <i class='bx bx-award'></i>
-                                <h3 class="about__title">Experiencia</h3>
-                                <span class="about__subtitle">+3 Años Trabajando</span>
-                            </div>
-
-                            <div class="about__box">
-                                <i class='bx bx-briefcase-alt' ></i>
-                                <h3 class="about__title">Completados</h3>
-                                <span class="about__subtitle">+10 Proyectos</span>
-                            </div>
-                            
-                            <div class="about__box">
-                                <i class='bx bx-support' ></i>
-                                <h3 class="about__title">Soporte</h3>
-                                <span class="about__subtitle">Online 24/7</span>
-                            </div>
-                        </div>
-                        <p class="about__description">
-                            Desarrollador Front End, creo páginas web mediante código o Plantillas CMS. <br><br>
-                            También me especializo en áreas de diseño, edición fotográfica, y edición de videos
-
-                        </p>
-    
-                        <a href="#contact" class="button">Contáctame</a>
-                    
-                    </div>
-                </div>
-            </section>
-
-            <!--=============== SKILLS ===============-->
-            <section class="skills section" id="skills">
-                <span class="section__subtitle">Mis habilidades</span>
-                <h2 class="section__title">Desarrollo Web Full Stack <br> Diseño General | Análisis de Datos</h2>
-                
-
-                <div class="skills__container container grid">
-                    <div class="skills__content">
-                        <h3 class="skills__title">Frontend Developer & Design</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">React</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">HTML/CSS</h3>
-                                        <span class="skills__level">Avanzado</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Premiere</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Photoshop</h3>
-                                        <span class="skills__level">Avanzado</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Illustrator</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills__content">
-                        <h3 class="skills__title">Backend Developer & Analitics</h3>
-
-                        <div class="skills__box">
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">PHP</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">SQL</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Python</h3>
-                                        <span class="skills__level">Intermedio</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="skills__group">
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">JavaScript</h3>
-                                        <span class="skills__level">Intermediate</span>
-                                    </div>
-                                </div>
-
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Excel</h3>
-                                        <span class="skills__level">Avanzado</span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <i class='bx bxs-badge-check'></i>
-                                    <div>
-                                        <h3 class="skills__name">Power BI</h3>
-                                        <span class="skills__level">Avanzado</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <!--=============== SERVICES ===============-->
-            <section class="services section">
-                <span class="section__subtitle">Mis Servicios</span>
-                <h2 class="section__title">Qué te ofrezco</h2>
-
-                <div class="services__container container grid">
-                    <div class="services__card">
-                        <h3 class="services__title">Diseñador <br>General</h3>
-                            <span class="services__button">
-                                Ver más<i class='bx bx-right-arrow-alt services__icon' ></i>
-                            </span>
-                                <div class="services__modal">
-                                <div class="services__modal-content">
-                                    <i class='bx bx-x services__modal-close'></i> 
-                                    <h3 class="services__modal-title">Diseño en General</h3>
-                                    <p class="services__modal-description">
-                                        Servicios con más de 3 años de experiencia
-                                        con la calidad que el cliente requiere.
-                                    </p>
-
-                                    <ul class="services__modal-list">
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Diseño de publicidad.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Retoque fotográfico.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Diseño de Flyers.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Identidad de marca (Branding).
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Diseño de MuckUps de productos.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                    </div>
-
-                    <div class="services__card">
-                        <h3 class="services__title">Desarrollador<br> Full Stack </h3>
-                            <span class="services__button">
-                                Ver más<i class='bx bx-right-arrow-alt services__icon' ></i>
-                            </span>
-
-                            <div class="services__modal">
-                                <div class="services__modal-content">
-                                    <i class='bx bx-x services__modal-close'></i> 
-                                    <h3 class="services__modal-title">Web Developer Full Stack</h3>
-                                    <p class="services__modal-description">
-                                        Realizo páginas web para negocios, 
-                                        tiendas en línea, o portafolio como esta misma.
-                                    </p>
-
-                                    <ul class="services__modal-list">
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Toda la interfaz del usuario.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Landing Page o Multipáginas para negocios.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Interacciones para más vida a la página.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Páginas estáticas o dinámicas (con bases de datos).
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Tiendas en línea, E-commerce.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                    </div>
-
-                    <div class="services__card">
-                        <h3 class="services__title">Analista <br> de Datos</h3>
-                            <span class="services__button">
-                                Ver más <i class='bx bx-right-arrow-alt services__icon' ></i>
-                            </span>
-
-                            <div class="services__modal">
-                                <div class="services__modal-content">
-                                    <i class='bx bx-x services__modal-close'></i> 
-                                    <h3 class="services__modal-title">Analista de Datos</h3>
-                                    <p class="services__modal-description">
-                                        Nivel anvanzado en Excel y PowerBI. <br>
-                                        Para realizar reportes y análisis de datos.
-                                    </p>
-
-                                    <ul class="services__modal-list">
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Reportes dinámicos en Excel.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Manipulación, extracción y transformación de datos.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Manejo de SQL y bases de datos.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Toma de decisiones.
-                                            </p>
-                                        </li>
-
-                                        <li class="services__modal-item">
-                                            <i class='bx bx-check services__modal-icon' ></i>
-                                            <p class="services__modal-info">
-                                                Diseño de plan de acción basado en información relevante.
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <!--=============== WORK ===============-->
-            <section class="work section" id="work">
-                <span class="section__subtitle">Mi Portafolio</span>
-                <h2 class="section__title">Trabajos Recientes</h2>
-
-                <div class="work__filters">
-                    <span class="work__item active-work" data-filter="all">Todos</span>
-                    <span class="work__item" data-filter=".web">Web</span>
-                    <span class="work__item" data-filter=".marketing">Marketing</span>
-                    <span class="work__item" data-filter=".design">Diseño</span>
-                </div>
-
-                <div class="work__container container grid">
-                    <div class="work__card mix web">
-                        <img src="assets/img/Ingenieria-Sidney.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Website Dinámica Sidney</h3>
-                        
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Desarrollo de Página Web para Constructora</h3>
-                                <p class="work__modal-description">
-                                    Ingeniería Sidney es una empresa dedicada al rubro de la construcción y consultoría.
-                                    <br>
-                                    Mostrar confiablidad y compromiso a sus clientes con presencia en internet.
-                                </p>
-                                <img class="work__modal-img" src="assets/img/Ingenieria-Sidney-large.jpg" alt="ingenieria sidney">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work__card mix marketing">
-                        <img src="assets/img/comunity-manager-portada.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Comunity Manager Sidney</h3>
-
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Comunity Manager</h3>
-                                <p class="work__modal-description">
-                                    Comunity Manager de la empresa Sidney para mantener el contacto con 
-                                    los clientes.
-                                </p>
-                                <img class="work__modal-img" src="assets/img/Comunity-manager-sidney-large.jpg" alt="ingenieria sidney">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work__card mix design">
-                        <img src="assets/img/flyers-publicitarios.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Flyers Publicitarios</h3>
-
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Diseño de Flyers</h3>
-                                <p class="work__modal-description">
-                                    Trabajos como Freelancer, usando programas como Photoshop, Illustrator
-                                    e incluso Canva, o Adobe Express.
-                                </p>
-                                <div class="containerCarousel">
-                                    <div class="carousel-wrapper">
-                                        <div class="slide" data-slide>
-                                            <img src="assets/img/flyers-publicitarios-2.png" alt="Image">
-                                        </div>
-                                        <div class="slide" data-slide>
-                                            <img src="assets/img/flyers-publicitarios 3.png" alt="Image">
-                                        </div>
-                                        <div class="slide" data-slide>
-                                            <img src="assets/img/flyers-publicitarios 4.png" alt="Image">
-                                        </div>
-                                        <div class="slide" data-slide>
-                                            <img src="assets/img/flyers-publicitarios 5.jpg" alt="Image">
-                                        </div>
-                            
-                                        <button class="btn previous" data-button="previous">
-                                            <i class="bi bi-chevron-left"></i>
-                                        </button>
-                                        <button class="btn next" data-button="next">
-                                            <i class="bi bi-chevron-right"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work__card mix web">
-                        <img src="assets/img/web-estatica-portada.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Website Estática Portfolio</h3>
-
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Portfolio Web como Página Estática</h3>
-                                <p class="work__modal-description">
-                                    Mediante el uso de plantillas, código o plantillas CMS puedo hacer portafolios web para diferentes
-                                    personas o empresas, así como está hecho este mismo portafolio.
-                                    <br>
-                                    Claro que si es necesario puede estar conectado a una Base de Datos y ser dinámica.
-                                </p>
-                                <img class="work__modal-img" src="assets/img/web-estatica-large.jpg" alt="ingenieria sidney">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work__card mix marketing">
-                        <img src="assets/img/anuncios-portada.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Publicidad en Redes Sociales</h3>
-
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Administrador de Anuncios Publicitarios</h3>
-                                <p class="work__modal-description">
-                                    Era encargado de realizar y hacer seguimiento de campañas en redes sociales para la empresa, generalmente
-                                    sobre servicios de Elaboración y Diseño de Planos. 
-                                </p>
-                                <img class="work__modal-img" src="assets/img/publicidad-1.png" alt="ingenieria sidney">
-                                <img class="work__modal-img" src="assets/img/publicidad-2.png" alt="ingenieria sidney">
-                                <img class="work__modal-img" src="assets/img/publicidad-3.png" alt="ingenieria sidney">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="work__card mix design">
-                        <img src="assets/img/render-1.jpg" alt="" class="work__img">
-
-                        <h3 class="work__title">Renderizado 2D y 3D</h3>
-
-                        <span href="" class="work__button">
-                            Ver más<i class='bx bx-right-arrow-alt work__icon'></i>
-                        </span>
-                        <div class="work__modal">
-                            <div class="work__modal-content">
-                                <i class='bx bx-x work__modal-close'></i> 
-                                <h3 class="work__modal-title">Renderizar Planos 3D</h3>
-                                <p class="work__modal-description">
-                                    Con el uso de Photoshop logré realizar trabajos como Renderizado de Planos 3D en una vista 2D
-                                    para agregar valor a los servicios que la empresa Ingenieria Sidney ofrecía a sus clientes en el servicio de planos.
-                                </p>
-                                <img class="work__modal-img" src="assets/img/render-2.jpg" alt="renderizado 2D">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section" id="testimonial">
-                <span class="section__subtitle">Mis clientes</span>
-                <h2 class="section__title">Testimonios</h2>
-
-                <div class="testimonial__container container swiper">
-                    <div class="swiper-wrapper">
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/user1.png" alt="" class="testimonial__img">
-                            <h3 class="testimonial__name">Yaknis Bordón</h3>
-                            <p class="testimonial__description">
-                                Tenemos una identidad de marca sólida que conecta con nuestros clientes. 
-                                ¡Gracias por hacer que nuestro negocio destaque!
-                            </p>
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/user1.png" alt="" class="testimonial__img">
-                            <h3 class="testimonial__name">Ingeniería Sidney</h3>
-                            <p class="testimonial__description">
-                                Cumplió los requerimientos y creó un sitio web confiable. 
-                                Aumentaron las conversiones de nuestros clientes potenciales y nuestros trabajos.
-                            </p>
-                        </div>
-
-                        <div class="testimonial__card swiper-slide">
-                            <img src="assets/img/user1.png" alt="" class="testimonial__img">
-                            <h3 class="testimonial__name">Eduardo Huari</h3>
-                            <p class="testimonial__description">
-                                Ser supervisor no es fácil, pero gracias a las herramientas que brindó Eloy, 
-                                la comunicación mejoró y completamos la obra antes de lo previsto.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="swiper-pagination"></div>
-
-                </div>
-            </section>
-
-            <!--=============== CONTACT ===============-->
-            <section class="contact section" id="contact">
-                <span class="section__subtitle">En un Click</span>
-                <h3 class="section__title">Contáctame</h3>
-                <div class="contact__container container grid">
-                    <div class="contact__content">
-                        <h3 class="contact__title">Mensajes Directos</h3>
-
-                        <div class="contact__info">
-                            <div class="contact__card">
-                                <i class='bx bx-mail-send contact__card-icon'></i>
-                                <h3 class="contact__card-title">Email</h3>
-                                <span class="contact__card-data">eloy.maguinaricra@gmail.com</span>
-                                <a href="mailto:eloy.maguinaricra@gmail.com" target="_blank" class="contact__button">
-                                    Mensaje <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
-                                </a>
-                            </div>
-
-                            <div class="contact__card">
-                                <i class='bx bxl-whatsapp contact__card-icon' ></i>
-                                <h3 class="contact__card-title">WhatsApp</h3>
-                                <span class="contact__card-data">977-672-825</span>
-                                <a href="https://api.whatsapp.com/send?phone=+51977672825&text=Hello, more information!" target="_blank" class="contact__button">
-                                    Mensaje <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
-                                </a>
-                            </div>
-
-                            <div class="contact__card">
-                                <i class='bx bxl-messenger contact__card-icon' ></i>
-                                <h3 class="contact__card-title">Messenger</h3>
-                                <span class="contact__card-data">eloymaguina/messenger.com</span>
-                                <a href="https://m.me/eloy.maguina" target="_blank" class="contact__button">
-                                    Mensaje <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="contact__content">
-                        <h3 class="contact__title">Escríbeme tu proyecto</h3>
-                        <form action="" class="contact__form" id="contact-form">
-                            <div class="contact__form-div">
-                                <label for="" class="contact__form-tag">Nombres</label>
-                                <input type="text" name="user_name" placeholder="Escribe tus nombres" class="contact__form-input" required id="name">
-                            </div>
-                        
-                            <div class="contact__form-div">
-                                <label for="" class="contact__form-tag">Correo</label>
-                                <input type="email" name="user_email" placeholder="Escribe tu email" class="contact__form-input" required id="email">
-                            </div>
-
-                            <div class="contact__form-div">
-                                <label for="" class="contact__form-tag">Asunto</label>
-                                <input type="text" name="user_subject" placeholder="Asunto" class="contact__form-input" required id="subject">
-                            </div>
-                        
-                            <div class="contact__form-div contact__form-area">
-                                <label for="" class="contact__form-tag">Proyecto</label>
-                                <textarea name="user_message" required id="message" cols="30" rows="10" placeholder="Escribe tu proyecto" class="contact__form-input"></textarea>
-                            </div>
-
-                            <p class="contact__message" id="contact-message"></p>
-                            <button class="button" type="submit"><i class='bx bx-paper-plane'></i> Send Message</button>
-                            
-                        </form>
-                    </div>
-                </div>
-            </section>
-
-            <!--=============== POP-UP ===============-->
-            <div class="notification">
-                <p>Welcome 👏</p>
-                <span class="notification-progress"></span>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!--=============== FONTAWESOME ===============-->
+    <script
+      src="https://kit.fontawesome.com/7f5cf7e8e9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio Eloy Maguina</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Eloy</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user-circle"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-briefcase"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-rounded-dots"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme Change Button -->
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__gretting">Hola, soy</span>
+            <h1 class="home__name">Eloy Maguiña</h1>
+            <h3 class="home__education">Ingeniero de Sistemas</h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/Curriculum Maguiña Ricra Eloy.pdf"
+                class="button button--ghost"
+              >
+                Descargar CV
+              </a>
+              <a href="#about" class="button">Sobre Mí</a>
             </div>
-        </main>
+          </div>
 
-        <!--=============== FOOTER ===============-->
-        <footer class="footer">
-            <div class="footer__container container">
-                <h1 class="footer__title">Eloy</h1>
+          <div class="home__handle">
+            <img src="assets/img/perfil-1.png" alt="" class="home__img" />
+          </div>
 
-                <ul class="footer__list">
-                    <li>
-                        <a href="#about" class="footer__link">Sobre Mí</a>
-                    </li>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/eloy-maguina/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a
+              href="https://github.com/EMaguinaRicra"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.behance.net/eloymaguiaricra"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-behance"></i>
+            </a>
+          </div>
 
-                    <li>
-                        <a href="#work" class="footer__link">Trabajos</a>
-                    </li>
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse-alt home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
 
-                    <li>
-                        <a href="#testimonial" class="footer__link">Testimonios</a>
-                    </li>
-                </ul>
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">Introducción</span>
+        <h2 class="section__title">Sobre Mí</h2>
 
-                <ul class="footer__social">
-                    <a href="https://www.facebook.com/eloy.maguina" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="https://www.instagram.com/eloymaguina/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-instagram' ></i>
-                    </a>
-                    <a href="https://www.behance.net/eloymaguiaricra" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-behance' ></i>
-                    </a>
-                </ul>
+        <div class="about__container container grid">
+          <img src="assets/img/about-1.webp" alt="" class="about__img" />
 
-                <span class="footer__copy">
-                    &#169; Eloy Maguiña. All rigths reserved
-                </span>
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award"></i>
+                <h3 class="about__title">Experiencia</h3>
+                <span class="about__subtitle">Desde 2022</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt"></i>
+                <h3 class="about__title">Completados</h3>
+                <span class="about__subtitle">+10 Proyectos</span>
+              </div>
+
+              <div class="about__box">
+                <i class="bx bx-support"></i>
+                <h3 class="about__title">Trabajo</h3>
+                <span class="about__subtitle">100% Online</span>
+              </div>
             </div>
-        </footer>
+            <p class="about__description">
+              Desarrollador Front End, hago páginas web mediante código o
+              WordPress <br /><br />
+              Especializado en diseño UI, edición fotográfica con fines
+              personales o publicidad.
+            </p>
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+            <a href="#contact" class="button">Contrátame</a>
+          </div>
+        </div>
+      </section>
 
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">Mis conocimientos</span>
+        <h2 class="section__title">Desarrollador Web - Front End</h2>
 
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src="assets/js/mixitup.min.js"></script>
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Desarrollador Front End</h3>
 
-        <!--=============== EMAILJS ===============-->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Desde 2023</span>
+                  </div>
+                </div>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">HTML/CSS</h3>
+                    <span class="skills__level">Desde 2020</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Desde 2021</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Tailwaind</h3>
+                    <span class="skills__level">Desde 2023</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__level">Desde 2023</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Desde 2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Developer & Analitics</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Intermedio</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__level">Intermedio</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Intermedio</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Excel</h3>
+                    <span class="skills__level">Avanzado</span>
+                  </div>
+                </div>
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Power BI</h3>
+                    <span class="skills__level">Avanzado</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section">
+        <span class="section__subtitle">Mis Servicios</span>
+        <h2 class="section__title">Qué te ofrezco</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">Diseñador <br />General</h3>
+            <span class="services__button">
+              Ver más<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Diseño en General</h3>
+                <p class="services__modal-description">
+                  Servicios con más de 3 años de experiencia con la calidad que
+                  el cliente requiere.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Diseño de publicidad.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Retoque fotográfico.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Diseño de Flyers.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Identidad de marca (Branding).
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Diseño de MuckUps de productos.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              Desarrollador<br />
+              Full Stack
+            </h3>
+            <span class="services__button">
+              Ver más<i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Web Developer Full Stack</h3>
+                <p class="services__modal-description">
+                  Realizo páginas web para negocios, tiendas en línea, o
+                  portafolio como esta misma.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Toda la interfaz del usuario.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Landing Page o Multipáginas para negocios.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Interacciones para más vida a la página.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Páginas estáticas o dinámicas (con bases de datos).
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Tiendas en línea, E-commerce.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">
+              Analista <br />
+              de Datos
+            </h3>
+            <span class="services__button">
+              Ver más <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+                <h3 class="services__modal-title">Analista de Datos</h3>
+                <p class="services__modal-description">
+                  Nivel anvanzado en Excel y PowerBI. <br />
+                  Para realizar reportes y análisis de datos.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Reportes dinámicos en Excel.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Manipulación, extracción y transformación de datos.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Manejo de SQL y bases de datos.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">Toma de decisiones.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Diseño de plan de acción basado en información relevante.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">Trabajos Realizados</span>
+        <h2 class="section__title">Mejores Proyectos</h2>
+
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">Todos</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".marketing">Marketing</span>
+          <span class="work__item" data-filter=".design">Diseño</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img
+              src="assets/img/Ingenieria-Sidney.jpg"
+              alt=""
+              class="work__img"
+            />
+
+            <h3 class="work__title">Website Dinámica Sidney</h3>
+
+            <span href="" class="work__button">
+              Ver más<i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+                <h3 class="work__modal-title">
+                  Desarrollo de Página Web para Constructora
+                </h3>
+                <p class="work__modal-description">
+                  Ingeniería Sidney es una empresa dedicada al rubro de la
+                  construcción y consultoría.
+                  <br />
+                  Mostrar confiablidad y compromiso a sus clientes con presencia
+                  en internet.
+                </p>
+                <img
+                  class="work__modal-img"
+                  src="assets/img/Ingenieria-Sidney-large.jpg"
+                  alt="ingenieria sidney"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="work__card mix web">
+            <img
+              src="assets/img/web-estatica-portada.jpg"
+              alt=""
+              class="work__img"
+            />
+
+            <h3 class="work__title">Website Estática Portfolio</h3>
+
+            <span href="" class="work__button">
+              Ver más<i class="bx bx-right-arrow-alt work__icon"></i>
+            </span>
+            <div class="work__modal">
+              <div class="work__modal-content">
+                <i class="bx bx-x work__modal-close"></i>
+                <h3 class="work__modal-title">
+                  Portfolio Web como Página Estática
+                </h3>
+                <p class="work__modal-description">
+                  Mediante el uso de plantillas, código o plantillas CMS puedo
+                  hacer portafolios web para diferentes personas o empresas, así
+                  como está hecho este mismo portafolio.
+                  <br />
+                  Claro que si es necesario puede estar conectado a una Base de
+                  Datos y ser dinámica.
+                </p>
+                <img
+                  class="work__modal-img"
+                  src="assets/img/web-estatica-large.jpg"
+                  alt="ingenieria sidney"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section" id="testimonial">
+        <span class="section__subtitle">Mis Trabajos</span>
+        <h2 class="section__title">Testimonios</h2>
+
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/user1.png" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Ingeniería Sidney</h3>
+              <p class="testimonial__description">
+                Cumplió los requerimientos y creó un sitio web confiable.
+                Aumentaron las conversiones de nuestros clientes potenciales y
+                nuestros trabajos.
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/img/user1.png" alt="" class="testimonial__img" />
+              <h3 class="testimonial__name">Eduardo Huari</h3>
+              <p class="testimonial__description">
+                Ser supervisor no es fácil, pero gracias a las herramientas que
+                brindó Eloy, la comunicación mejoró y completamos la obra antes
+                de lo previsto.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Contrátame</span>
+        <h3 class="section__title">Para tu Proyecto</h3>
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Mensajes Directos</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data"
+                  >eloy.maguinaricra@gmail.com</span
+                >
+                <a
+                  href="mailto:eloy.maguinaricra@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Mensaje
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">WhatsApp</h3>
+                <span class="contact__card-data">977-672-825</span>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+51977672825&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Mensaje
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-messenger contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data"
+                  >eloymaguina/messenger.com</span
+                >
+                <a
+                  href="https://m.me/eloy.maguina"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Mensaje
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">Escríbeme tu proyecto</h3>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label for="name" class="contact__form-tag">Nombres</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Escribe tus nombres"
+                  class="contact__form-input"
+                  required
+                  autocomplete="name"
+                  id="name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="email" class="contact__form-tag">Correo</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Escribe tu email"
+                  class="contact__form-input"
+                  required
+                  id="email"
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="subject" class="contact__form-tag">Asunto</label>
+                <input
+                  type="text"
+                  name="user_subject"
+                  placeholder="Asunto"
+                  class="contact__form-input"
+                  required
+                  id="subject"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label for="message" class="contact__form-tag">Proyecto</label>
+                <textarea
+                  name="user_message"
+                  required
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Escribe tu proyecto"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+              <button class="button" type="submit">
+                <i class="bx bx-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== POP-UP ===============-->
+      <div class="notification">
+        <p>Welcome 👏</p>
+        <span class="notification-progress"></span>
+      </div>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Eloy</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">Sobre Mí</a>
+          </li>
+
+          <li>
+            <a href="#work" class="footer__link">Trabajos</a>
+          </li>
+
+          <li>
+            <a href="#testimonial" class="footer__link">Testimonios</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://www.facebook.com/eloy.maguina"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/eloymaguina/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="https://www.behance.net/eloymaguiaricra"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-behance"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Eloy Maguiña. All rigths reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== EMAILJS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
