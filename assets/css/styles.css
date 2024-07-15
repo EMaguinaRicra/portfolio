@@ -788,6 +788,12 @@ Work modal
   cursor: pointer;
 }
 
+.work__link a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--first-color);
+}
+
 /* Active work modal */
 .active-workmodal {
   opacity: 1;
